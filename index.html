@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta Description, Keywords, and Author -->
+    <meta
+      name="description"
+      content="NFT preview card component. A Frontend Mentor challenge, made with HTML5, BEM and CSS3."
+    />
+    <meta
+      name="keywords"
+      content="NFT, CSS3, Responsive Design, Frontend Mentor"
+    />
+    <meta name="author" content="John Prosper" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts | Outfit (300, 400, 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="nft__card">
+        <div class="nft__img-wrapper">
+          <img
+            src="/images/image-equilibrium.jpg"
+            alt="NFT artwork"
+            class="nft__img"
+          />
+          <img src="/images/icon-view.svg" alt="View icon" class="nft__icon" />
+        </div>
+
+        <div class="nft__card-content">
+          <h1 class="nft__card-heading">Equilibrium #3429</h1>
+
+          <p class="nft__card-description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <div class="nft__card-stats">
+            <div class="nft__price">
+              <img
+                src="/images/icon-ethereum.svg"
+                alt="Ethereum icon"
+                class="nft__price-icon"
+              />
+              <span class="nft__price-value">0.041 ETH</span>
+            </div>
+
+            <div class="nft__time">
+              <img
+                src="/images/icon-clock.svg"
+                alt="Clock icon"
+                class="nft__time-icon"
+              />
+              <span class="nft__time-value">3 days left</span>
+            </div>
+          </div>
+
+          <div class="nft__creator">
+            <img
+              src="/images/image-avatar.png"
+              alt="Jules Wyvern"
+              class="nft__creator-avatar"
+            />
+            <p class="nft__creator-text">
+              Creation of <span class="nft__creator-name">Jules Wyvern</span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/codeStackr007"
+        >John Prosper</a
+      >.
+    </footer>
+  </body>
+</html>
