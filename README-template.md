@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/codeStackr007/nft-preview-card-component](https://github.com/codeStackr007/nft-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click Me! 😊](https://nft-preview-card-component-gamma-cyan.vercel.app/)
 
 ## My process
 
